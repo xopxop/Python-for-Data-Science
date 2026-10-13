@@ -1,14 +1,14 @@
 from typing import Any
 
 def all_thing_is_obj(object: Any) -> int:
-    if isinstance(object, list):
-        print("List : <class 'list'>")
+    if type(object) is list:
+        print(f"List : {type(object)}")
     elif isinstance(object, tuple):
-        print("Tuple : <class 'tuple'>")
+        print(f"Tuple : {type(object)}>")
     elif isinstance(object, set):
-        print("Set : <class 'set'>")
+        print(f"Set : {type(object)}")
     elif isinstance(object, dict):
-        print("Dict : <class 'dict'>")
+        print(f"Dict : {type(object)}")
     elif isinstance(object, str):
         print(f"{object} is in the kitchen : <class 'str'>")
     else:
