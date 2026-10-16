@@ -17,4 +17,3 @@ if argc > 1:
     else:
         print("AssertionError: more than one argument is provided")
         exit(1)
-

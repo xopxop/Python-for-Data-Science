@@ -1,5 +1,6 @@
 from typing import Any
 
+
 def NULL_not_found(object: Any) -> int:
     if object is None:
         print(f"Nothing: {object} {type(object)}")
@@ -13,4 +14,4 @@ def NULL_not_found(object: Any) -> int:
         print(f"Fake: {object} {type(object)}")
     else:
         print("Type not found")
-    return 1;
+    return 1
