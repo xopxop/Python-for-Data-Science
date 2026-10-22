@@ -30,11 +30,14 @@ NESTED_MORSE = {
     "Z": "--.. ",
 }
 
+
 def validInput(text: str) -> bool:
     return all(char.isalpha() and char != ' ' for char in text)
 
+
 def getMORSEstr(text: str) -> str:
     return "".join(NESTED_MORSE[char.upper()] for char in text)
+
 
 def main():
     argv = sys.argv
@@ -43,8 +46,8 @@ def main():
     if argc != 2 or not validInput(argv[1]):
         print("Assertion Error: the arguments are bad")
         exit(1)
-    print(getMORSEstr(argv[1]));
-    return 0;
+    print(getMORSEstr(argv[1]))
+    return 0
 
 
 if __name__ == "__main__":
