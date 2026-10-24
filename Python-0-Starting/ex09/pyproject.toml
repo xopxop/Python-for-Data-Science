@@ -1,0 +1,19 @@
+[project]
+name = "ft_package"
+version = "0.0.1"
+authors = [
+  { name="Du Than", email="will.than92@gmail.com" },
+]
+description = "A small example package for HiveHelsinki"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/xopxop/Python-for-Data-Science"
+Issues = "https://github.com/xopxop/Python-for-Data-Science/issues"
